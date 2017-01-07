@@ -57,7 +57,7 @@
 	if ($.isFunction($.fn['themePluginAnimate'])) {
 
 		$(function() {
-			$('[data-appear-animation]').each(function() {
+			$('[data-plugin-animate], [data-appear-animation]').each(function() {
 				var $this = $(this),
 					opts;
 
